@@ -1,5 +1,5 @@
 venv
-.vscod
+.vscode
 __pycache__
 **/__pycache__
 chatbot.zip
