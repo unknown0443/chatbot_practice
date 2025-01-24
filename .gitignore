@@ -1,0 +1,5 @@
+venv
+.vscod
+__pycache__
+**/__pycache__
+chatbot.zip
