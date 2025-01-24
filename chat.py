@@ -15,8 +15,8 @@ import streamlit as st
 
 # TODO: 아래 YOUR-HUGGINGFACE-API-KEY랑 OUR-GEMINI-API-KEY에 자기꺼 넣기
 if not os.environ.get("HUGGINGFACEHUB_API_TOKEN"):
-    os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"    
-gemini_api_key = "AIzaSyAhDJYgjt-6TqEZuDXF_ZwL148w_fMwZVU"
+    os.environ["HUGGINGFACEHUB_API_TOKEN"] = "u r key"    
+gemini_api_key = "u r"
 
 genai.configure(api_key=gemini_api_key)
 
@@ -44,11 +44,10 @@ def create_vectorstore(topic):
 #줄바꿈해도 스트링 해도
 #유지
    
-    with open("documents.txt") as f:
-        text = f.readline
+    # with open("documents.txt") as f:
+        # text = f.readline
 
-        #text = """
-
+        text = """
 최근 변경
 최근 토론
 특수 기능
